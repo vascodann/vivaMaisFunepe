@@ -1,0 +1,193 @@
+/* FIX PARA TELAS COMO 1280x950 */
+@media (max-width: 1366px) {
+
+    #slider,
+    #slider-small {
+        height: 100%;
+    }
+
+    #slider figure,
+    #slider-small figure {
+        height: 100%;
+    }
+
+    #slider figure img,
+    #slider-small figure img {
+        height: 100%;
+        width: 20%;
+        object-fit: cover;
+    }
+
+}
+/* =========================
+   TABLET (até 1024px)
+========================= */
+@media (max-width: 1024px) {
+
+    #slider {
+        display: none;
+    }
+
+    #slider-small {
+        display: block;
+    }
+
+    .header .headline {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .header .headline h2 {
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .header .headline h4 {
+        font-size: 1.3rem;
+    }
+
+    .header .headline button {
+        font-size: 1.3rem;
+    }
+
+    .conteudo {
+        width: 90%;
+        margin-bottom: 15%;
+    }
+
+    .conteudo h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .conteudo li {
+        font-size: 1.6rem;
+        padding: 1.2rem;
+    }
+
+    article {
+        width: 90%;
+    }
+
+    .logo-rodape {
+        width: 200px;
+    }
+
+    .header {
+        height: 80vh;
+    }
+
+}
+
+
+/* =========================
+   MOBILE (até 768px)
+========================= */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .header {
+        height: 80vh;
+    }
+
+    .header .headline {
+        width: 95%;
+        text-align: center;
+    }
+
+    .header .headline h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        border-bottom: none;
+        width: 100%;
+    }
+
+    .header .headline button {
+        justify-content: center;
+        margin: 1.5rem auto;
+    }
+
+    /* ESCONDE slider grande e usa o pequeno */
+    #slider {
+        display: none;
+    }
+
+    #slider-small {
+        display: block;
+    }
+
+    /* CONTEÚDO */
+    .main {
+        padding: 1.5rem;
+    }
+
+    .conteudo {
+        width: 100%;
+        margin-bottom: 35%;
+    }
+
+    .conteudo h1 {
+        font-size: 1.8rem;
+    }
+
+    .conteudo li {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    article {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    /* INTRO */
+    .intro h1 {
+        font-size: 1.8rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    /* FOOTER */
+    .nao-me-processa-por-favor p {
+        font-size: 1.2rem;
+    }
+
+    .logo-scroll img {
+        width: 55px;
+    }
+}
+
+
+/* =========================
+   MOBILE PEQUENO (até 480px)
+========================= */
+@media (max-width: 480px) {
+
+    .header {
+        height: 70vh;
+    }
+
+    .header .headline h2 {
+        font-size: 1.2rem;
+    }
+
+    .header .headline button a {
+        font-size: 1rem;
+    }
+
+    .conteudo h1 {
+        font-size: 2rem;
+    }
+
+    .conteudo li {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    .main {
+        padding: 1rem;
+    }
+
+}
